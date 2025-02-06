@@ -83,7 +83,7 @@ document.addEventListener("click", function (event) {
                         };
 
                         // Send the data to the webhook
-                        fetch("https://webhook.site/d649559d-e46c-4b43-97d2-176d5640dde6", {
+                        fetch("https://hooks.zapier.com/hooks/catch/11956604/2a1dvxc/", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json",
