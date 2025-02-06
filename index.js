@@ -79,15 +79,12 @@ document.addEventListener("click", function (event) {
                             marksmen_uid_e: hashedEmail,
                             marksmen_uid_c: marksmen_uid_c,
                             marksmen_uid_s: marksmen_uid_s,
-                            marksmen_uid_p: marksmen_uid_p,
+                            marksmen_uid_p: marksmen_uid_p
                         };
 
                         // Send the data to the webhook
                         fetch("https://hooks.zapier.com/hooks/catch/11956604/2a1dvxc/", {
                             method: "POST",
-                            headers: {
-                                "Content-Type": "application/json",
-                            },
                             body: JSON.stringify(payload),
                         })
                             .then((response) => {
